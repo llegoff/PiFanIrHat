@@ -1,4 +1,4 @@
 # PiFanIrHat
 
-![](img/3D.png)
-![](img/sch.png)
+![](img/3D.PNG)
+![](img/sch.PNG)
