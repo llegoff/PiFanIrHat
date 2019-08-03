@@ -2,6 +2,8 @@
 
 # PiFanIrHat
 
+![](img/PiFanIR.jpg)
+
 ### Ventilateur
 
 ![](img/fan.PNG)
