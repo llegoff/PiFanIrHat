@@ -2,7 +2,7 @@
 
 # PiFanIrHat
 
-![](img/PiFanIr.jpg)
+![](img/PiFanIR.jpg)
 
 ### Fan
 
