@@ -2,6 +2,8 @@
 
 # PiFanIrHat
 
+![](img/PiFanIr.jpg)
+
 ### Fan
 
 ![](img/fan.PNG)
