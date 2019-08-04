@@ -38,7 +38,7 @@ void loop() {
     }
     irrecv.resume(); // Receive the next value
     i=50000;
-    while (i--){;}
+    while (i--){;} // delay loop (on attiny delay() and irremote library use timer0)
     digitalWrite(RELAY_PIN,LOW);
     digitalWrite(LED_PIN,LOW);
   }
