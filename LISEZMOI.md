@@ -46,6 +46,9 @@ tester la télécommande
 
 ### Allumage par InfraRouge
 
+:warning: sur le raspberry pi 4, seul l'arret fonctionne, avec le bootloader original. Pour le démarrage, le bootloader doit etre  mis à jour à la version RC3.3,
+voir https://www.raspberrypi.org/forums/viewtopic.php?f=117&t=246027
+
 ![](img/Attiny85.PNG)
 
 flash attiny85 with file [PiFanIr.hex](attiny85/PiFanIr.hex?raw=true)
@@ -56,6 +59,7 @@ flash attiny85 fuses : lfuse:E2 , efuse:FF , hfuse:DF
 
     avrdude -p attiny85 -P COM5 -b 19200 -c avrisp -u -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
 
+Pour apprendre le code InfraRouge, appuyez sur le bouton Rec, la led reste allumé, appuyez sur le bouton de la télécommande, la led s'eteind.
 
 ## PCB
 ![](img/3D.PNG)
