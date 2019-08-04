@@ -48,6 +48,15 @@ tester la télécommande
 
 ![](img/Attiny85.PNG)
 
+flash attiny85 with file [PiFanIr.hex](attiny85/PiFanIr.hex?raw=true)
+
+    avrdude -p attiny85 -P COM5 -b 19200 -c avrisp -u -U flash:w:PiFanIr.hex
+
+flash attiny85 fuses : lfuse:E2 , efuse:FF , hfuse:DF
+
+    avrdude -p attiny85 -P COM5 -b 19200 -c avrisp -u -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
+
+
 ## PCB
 ![](img/3D.PNG)
 
