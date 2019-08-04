@@ -3,7 +3,6 @@
  */
 
 #include <IRremote.h>
-// https://github.com/z3t0/Arduino-IRremote
 #include <EEPROM.h>
 
 #define RECV_PIN  3
@@ -24,8 +23,8 @@ void setup()
   pinMode(RELAY_PIN, OUTPUT);
   pinMode(LED_PIN, OUTPUT);
   pinMode(SW_PIN,INPUT_PULLUP);
-  pinMode(RECV_PIN,INPUT_PULLUP);
   irrecv.enableIRIn(); // Start the receiver
+  pinMode(RECV_PIN,INPUT_PULLUP);
   EEPROM.get(0, good_code); //read in eeprom
 }
 
@@ -38,7 +37,7 @@ void loop() {
     }
     irrecv.resume(); // Receive the next value
     i=50000;
-    while (i--){;} // delay loop (on attiny delay() and irremote library use timer0)
+    while (i--){;}
     digitalWrite(RELAY_PIN,LOW);
     digitalWrite(LED_PIN,LOW);
   }
