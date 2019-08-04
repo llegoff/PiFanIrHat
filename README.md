@@ -48,7 +48,7 @@ test remote
 
 ![](img/Attiny85.PNG)
 
-flash Attiny85 with file [/attiny85/PiFanIr.hex]
+flash Attiny85 with file (/attiny85/PiFanIr.hex)
 
     avrdude -p attiny85 -P COM5 -b 19200 -c avrisp -u -U flash:w:PiFanIr.hex
 
