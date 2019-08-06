@@ -8,6 +8,8 @@
 
 ![](img/fan.PNG)
 
+:warning: need raspbian buster, good dtoverlay gpio-fan comme with kernel 4.19.
+
 configuration: edit /boot/config.txt, add folowing line
 
     dtoverlay=gpio-fan,gpiopin=18,temp=55000
