@@ -8,6 +8,8 @@
 
 ![](img/fan.PNG)
 
+:warning: nécessite raspbian buster, la bonne version de l'overlay gpio-fan apparait avec le kernel 4.19.
+
 configuration: editer le fichier /boot/config.txt, ajouter la ligne suivante
 
     dtoverlay=gpio-fan,gpiopin=18,temp=55000
