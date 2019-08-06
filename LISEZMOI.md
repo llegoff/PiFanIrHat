@@ -29,7 +29,6 @@ voir https://www.raspberrypi.org/forums/viewtopic.php?f=117&t=246027
 
 ### Recepteur InfraRouge
 
-
 ![](img/IR.PNG)
 
 installer ir-keytable
