@@ -8,7 +8,7 @@
 
 ![](img/fan.PNG)
 
-:warning: need raspbian buster, good dtoverlay gpio-fan comme with kernel 4.19.
+:warning: need raspbian buster, good version of dtoverlay gpio-fan comme with kernel 4.19.
 
 configuration: edit /boot/config.txt, add folowing line
 
