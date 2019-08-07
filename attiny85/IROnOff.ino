@@ -2,7 +2,7 @@
 
  */
 
-#include <IRremote.h>
+#include <IRremote.h> //https://github.com/z3t0/Arduino-IRremote
 #include <EEPROM.h>
 
 #define RECV_PIN  3
@@ -37,7 +37,7 @@ void loop() {
     }
     irrecv.resume(); // Receive the next value
     i=50000;
-    while (i--){;}
+    while (i--){;}    
     digitalWrite(RELAY_PIN,LOW);
     digitalWrite(LED_PIN,LOW);
   }
