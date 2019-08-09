@@ -1,5 +1,7 @@
 [:fr:](LISEZMOI.md) [:uk:](README.md)
 
+buy rev1 on [ebay](https://www.ebay.fr/itm/153597547428) :package:
+
 # PiFanIrHat
 
 ![](img/PiFanIR.jpg)
