@@ -2,6 +2,8 @@
 
 # PiFanIrHat
 
+buy rev1 on [ebay](https://www.ebay.fr/itm/153597547428) :package:
+
 ![](img/PiFanIR.jpg)
 
 ### Ventilateur
