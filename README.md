@@ -1,7 +1,7 @@
 [:fr:](LISEZMOI.md) [:uk:](README.md)
 
 buy rev1 on [ebay](https://www.ebay.fr/itm/153597547428) :package:
-
+buy rev1 (silent fan) on [ebay](https://www.ebay.fr/itm/153600642463) :package:
 # PiFanIrHat
 
 ![](img/PiFanIR.jpg)
