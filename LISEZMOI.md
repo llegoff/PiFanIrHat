@@ -72,6 +72,7 @@ Pour apprendre le code InfraRouge, appuyez sur le bouton Rec, la led reste allum
 ## Schéma
 ![](img/sch.PNG)
 
+![](img/jlcpcb.jpg)
 
 ## Révision
 rev1
