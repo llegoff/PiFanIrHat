@@ -69,6 +69,8 @@ For key learning, press Rec button, led stay on, press remote key, led rturn off
 ## PCB
 ![](img/3D.PNG)
 
+![](img/jlcpcb.jpg)
+
 ## Schematic
 ![](img/sch.PNG)
 
