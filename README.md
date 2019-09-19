@@ -54,6 +54,9 @@ test remote
 :warning: on raspberry pi 4, only shutdown work, with original bootloader. For power on, bootloader need to be update to RC3.3,
 see https://www.raspberrypi.org/forums/viewtopic.php?f=117&t=246027
 
+:grey_exclamation: For key learning, press Rec button, led stay on, press remote key, led rturn off.
+
+
 ![](img/Attiny85.PNG)
 
 flash Attiny85 with file [PiFanIr.hex](attiny85/PiFanIr.hex?raw=true)
@@ -64,7 +67,6 @@ flash attiny85 fuses : lfuse:E2 , efuse:FF , hfuse:DF
 
     avrdude -p attiny85 -P COM5 -b 19200 -c avrisp -u -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
 
-For key learning, press Rec button, led stay on, press remote key, led rturn off.
 
 ## PCB
 ![](img/3D.PNG)
