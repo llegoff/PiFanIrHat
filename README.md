@@ -54,7 +54,8 @@ test remote
 :warning: on raspberry pi 4, only shutdown work, with original bootloader. For power on, bootloader need to be update to RC3.3,
 see https://www.raspberrypi.org/forums/viewtopic.php?f=117&t=246027
 
-:grey_exclamation: For key learning, press Rec button, led stay on, press remote key, led rturn off.
+
+:grey_exclamation: For key learning, press Rec button, led stay on, press remote key, led return off.
 
 
 ![](img/Attiny85.PNG)
