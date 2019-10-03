@@ -28,8 +28,9 @@ configuration: editer le fichier /boot/config.txt, ajouter la ligne suivante
 
     dtoverlay=gpio-shutdown,gpio_pin=3,active_low=1,gpio_pull=up
     
-:warning: sur le raspberry pi 4, seul l'arret fonctionne, avec le bootloader original. Pour le démarrage, le bootloader doit etre  mis à jour à la version RC3.3,
-voir https://www.raspberrypi.org/forums/viewtopic.php?f=117&t=246027
+:warning: sur le raspberry pi 4, seul l'arret fonctionne, avec le bootloader original. Pour le démarrage, le bootloader doit etre  mis à jour à la ~~version RC3.3~~ dernière version (voir https://www.raspberrypi.org/forums/viewtopic.php?f=117&t=246027)
+
+La dernière version du bootloader est disponible en téléchargement,dans la section recovery https://www.raspberrypi.org/downloads/
 
 ### Recepteur InfraRouge
 
@@ -51,8 +52,9 @@ tester la télécommande
 
 ### Allumage par InfraRouge
 
-:warning: sur le raspberry pi 4, seul l'arret fonctionne, avec le bootloader original. Pour le démarrage, le bootloader doit etre  mis à jour à la version RC3.3,
-voir https://www.raspberrypi.org/forums/viewtopic.php?f=117&t=246027
+:warning: sur le raspberry pi 4, seul l'arret fonctionne, avec le bootloader original. Pour le démarrage, le bootloader doit etre  mis à jour à la ~~version RC3.3~~ dernière version (voir https://www.raspberrypi.org/forums/viewtopic.php?f=117&t=246027)
+
+La dernière version du bootloader est disponible en téléchargement,dans la section recovery https://www.raspberrypi.org/downloads/
 
 
 :grey_exclamation: Pour apprendre le code InfraRouge, appuyez sur le bouton Rec, la led reste allumé, appuyez sur le bouton de la télécommande, la led s'eteind.
