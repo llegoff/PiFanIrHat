@@ -28,7 +28,7 @@ configuration: edit /boot/config.txt, add folowing line
 
     dtoverlay=gpio-shutdown,gpio_pin=3,active_low=1,gpio_pull=up
     
-:warning: on raspberry pi 4, only shutdown work, with original bootloader. For power on, bootloader need to be update to RC3.3,
+:warning: on raspberry pi 4, only shutdown work, with original bootloader. For power on, bootloader need to be update to -RC3.3-,
 see https://www.raspberrypi.org/forums/viewtopic.php?f=117&t=246027
 
 ### IR receiver
